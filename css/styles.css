@@ -1,0 +1,77 @@
+:root{
+    --body-backgroundColor: gray;
+    --body-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: bisque;
+    font-family: var(--body-font);
+}
+
+/* HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 1em 1em ;
+    background-color: #fff;
+}
+
+nav a{
+    padding: 10px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    
+}
+    nav a:hover{
+        cursor: pointer;
+        color: red;
+        text-shadow: 10px solid black;
+    }
+.logo{
+    padding-top: -20px;
+    margin-left: 3em;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+main{
+    text-align: center;
+    background: linear-gradient(to top, rgba(234, 102, 132, 1), rgba(236, 135, 132, 0.4)), url("../assets/bg-image.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: auto;
+    height: auto;
+    padding: 8.5em;
+}
+
+button{
+    border: none;
+    margin-top: 20px;
+    padding:  10px 30px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button:hover{
+    background-color: pink;
+    cursor: pointer;
+}
+
